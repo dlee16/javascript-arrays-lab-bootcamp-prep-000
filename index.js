@@ -22,7 +22,7 @@ function appendKitten(name){
 }
 
 function prependKitten(name){
-  kittens= kittens.concat_Int(kittens)
+  kittens= kittens.concat_init(kittens)
   return kittens
 }
 
