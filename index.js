@@ -22,8 +22,8 @@ function appendKitten(name){
 }
 
 function prependKitten(name){
-  kittens = [name, ...kittens]
-  return const morekittens
+  morekittens = [name, ...kittens]
+  return morekittens
 }
 
 function removeLastKitten(){
