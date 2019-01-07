@@ -22,7 +22,8 @@ function appendKitten(name){
 }
 
 function prependKitten(name){
-  return name.concat(kittens)
+  kittens= name.concat(kittens)
+  return kittens
 }
 
 function removeLastKitten(){
